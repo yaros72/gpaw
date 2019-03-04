@@ -1,0 +1,100 @@
+2010-02-15 10.1103/PhysRevB.81.085103 Fully self-consistent GW calculations for molecules
+2010-06-04 10.1103/PhysRevB.81.245105 Projector augmented wave formulation of Hartree-Fock calculations of electronic structure
+2010-06-14 10.1063/1.3451265 Electrochemical control of quantum interference in anthraquinone-based molecular switches
+2010-06-30 10.1088/0953-8984/22/25/253202 Electronic structure calculations with GPAW: a real-space implementation of the projector augmented-wave method
+2010-09-16 10.1103/PhysRevB.82.121412 Quantifying transition voltage spectroscopy of molecular junctions: Ab initio calculations
+2010-10-15 10.1021/nl101688a The Relation between Structure and Quantum Interference in Single Molecule Junctions
+2010-12-30 10.1021/jp1076774 Ab Initio Adsorption Thermodynamics of H2S and H-2 on Ni(111): The Importance of Thermal Corrections and Multiple Reaction Equilibria
+2011-01-15 10.1039/c1cp20924h Graphical prediction of quantum interference-induced transmission nodes in functionalized organic molecules
+2011-03-04 10.1103/PhysRevB.83.115108 Self-consistent GW calculations of electronic transport in thiol- and amine-linked molecular junctions
+2011-04-05 10.1103/PhysRevB.83.155407 Improving transition voltage spectroscopy of molecular junctions
+2011-05-16 10.1016/j.cattod.2010.12.022 The role of transition metal interfaces on the electronic transport in lithium-air batteries
+2011-05-21 10.1063/1.3589861 Adsorption properties versus oxidation states of rutile TiO2(110)
+2011-05-31 10.1103/PhysRevB.83.184119 Optimized orthogonal tight-binding basis: Application to iron
+2011-06-24 10.1103/PhysRevB.83.245122 Linear density response function in the projector augmented wave method: Applications to solids, surfaces, and interfaces
+2011-07-11 10.1088/0953-8984/23/27/276004 Tight-binding simulation of transition-metal alloys
+2011-08-04 10.1021/jp200893w Ab Initio Calculations of the Electronic Properties of Polypyridine Transition Metal Complexes and Their Adsorption on Metal Surfaces in the Presence of Solvent and Counterions
+2011-10-14 10.1063/1.3646510 Robust conductance of dumbbell molecular junctions with fullerene anchoring groups
+2011-10-17 10.1103/PhysRevB.84.155119 Parameterization of tight-binding models from density functional theory calculations
+2011-10-21 10.1063/1.3653790 Controlling the transmission line shape of molecular t-stubs and potential thermoelectric applications
+2011-11-09 10.3762/bjnano.2.82 Towards quantitative accuracy in first-principles transport calculations: The GW method applied to alkane/gold junctions
+2011-11-16 10.1103/PhysRevB.84.205434 Steps on rutile TiO2(110): Active sites for water and methanol dissociation
+2011-12-07 10.1063/1.3663385 Electrical conductivity in Li2O2 and its role in determining capacity limitations in non-aqueous Li-O-2 batteries
+2011-12-14 10.1103/PhysRevB.84.245429 Electronic shell structure and chemisorption on gold nanoparticles
+2012-03-23 10.1103/PhysRevB.85.115317 Phonon-limited mobility in n-type single-layer MoS2 from first principles
+2012-04-27 10.1103/PhysRevB.85.155140 Ab initio nonequilibrium quantum transport and forces with the real-space projector augmented wave method
+2012-06-13 10.1021/ja3003765 Balance of Nanostructure and Bimetallic Interactions in Pt Model Fuel Cell Catalysts: In Situ XAS and DFT Study
+2012-08-01 10.1021/ja305004a Structure and Mobility of Metal Clusters in MOFs: Au, Pd, and AuPd Clusters in MOF-74
+2012-10-09 10.1103/PhysRevB.86.155115 DFT-based tight-binding modeling of iron-carbon
+2012-11-15 10.1140/epjd/e2012-30485-5 Density functional theory molecular dynamics study of the Au-25(SR)(18)(-) cluster
+2012-12-20 10.1021/jz301806b Thermodynamics of Pore Filling Metal Clusters in Metal Organic Frameworks: Pd in UiO-66
+2013-01-15 10.1039/c3cp54050b Computational screening of functionalized zinc porphyrins for dye sensitized solar cells
+2013-06-19 10.1103/PhysRevB.87.235312 Acoustic phonon limited mobility in two-dimensional semiconductors: Deformation potential and piezoelectric scattering in monolayer MoS2 from first principles
+2013-07-15 10.1038/ncomms3121 Direct measurement and modulation of single-molecule coordinative bonding forces in a transition metal complex
+2013-11-14 10.1063/1.4829520 Energy level alignment and quantum conductance of functionalized metal-molecule junctions: Density functional theory versus GW calculations
+2013-11-15 10.1002/pssb.201349217 Quantitatively accurate calculations of conductance and thermopower of molecular junctions
+2013-11-28 10.1063/1.4829640 Interfacial oxygen under TiO2 supported Au clusters revealed by a genetic algorithm search
+2014-01-15 10.1016/j.jcat.2013.10.015 Thermochemistry and micro-kinetic analysis of methanol synthesis on ZnO (0001)
+2014-01-15 10.1039/c4cp01289e Optimizing porphyrins for dye sensitized solar cells using large-scale ab initio calculations
+2014-02-15 10.1007/s11244-013-0160-9 Genetic Algorithm Procreation Operators for Alloy Nanoparticle Catalysts
+2014-06-15 10.1021/cs500202f Identification of the Catalytic Site at the Interface Perimeter of Au Clusters on Rutile TiO2(110)
+2014-08-11 10.1103/PhysRevB.90.075115 Simultaneous description of conductance and thermopower in single-molecule junctions from many-body ab initio calculations
+2014-10-15 10.1016/j.susc.2014.06.001 Interplay of hydrogen bonding and molecule-substrate interaction in self-assembled adlayer structures of a hydroxyphenyl-substituted porphyrin
+2014-11-10 10.1016/j.electacta.2014.09.056 Ti atoms in Ru0.3Ti0.7O2 mixed oxides form active and selective sites for electrochemical chlorine evolution
+2014-12-07 10.1063/1.4902249 Nucleation and growth of Pt nanoparticles on reduced and oxidized rutile TiO2 (110)
+2015-01-15 10.1039/c4nr06371f Surface-confined 2D polymerization of a brominated copper-tetraphenylporphyrin on Au(111)
+2015-01-15 10.1039/c4sc03835e Design of two-photon molecular tandem architectures for solar cells by ab initio theory
+2015-01-15 10.1039/c5cp00298b A DFT-based genetic algorithm search for AuCu nanoalloy electrocatalysts for CO2 reduction
+2015-01-15 10.1039/c5cp01881a Electronic and magnetic properties of DUT-8(Ni)
+2015-01-15 10.1039/c5cp03382a Low temperature pollutant trapping and dissociation over two-dimensional tin
+2015-03-07 10.1063/1.4913739 Nanoplasmonics simulations at the basis set limit through completeness-optimized, local numerical basis sets
+2015-03-14 10.1063/1.4906048 Chemical insight from density functional modeling of molecular adsorption: Tracking the bonding and diffusion of anthracene derivatives on Cu(111) with molecular orbitals
+2015-03-18 10.1002/adfm.201404388 Molecular Heterojunctions of Oligo(phenylene ethynylene)s with Linear to Cruciform Framework
+2015-03-24 10.1103/PhysRevB.91.115431 Localized surface plasmon resonance in silver nanoparticles: Atomistic first-principles time-dependent density-functional theory calculations
+2015-04-02 10.1021/acs.jpcc.5b00734 Isolating a Reaction Intermediate in the Hydrogenation of 2,2,2-Trifluoroacetophenone on Pt(111)
+2015-04-05 10.1002/jcc.23834 van der Waals Interactions are Critical in Car-Parrinello Molecular Dynamics Simulations of Porphyrin-Fullerene Dyads
+2015-05-08 10.1088/0953-8984/27/17/175007 The effect of point defects on diffusion pathway within alpha-Fe
+2015-06-11 10.1021/jp512627e Importance of the Reorganization Energy Barrier in Computational Design of Porphyrin-Based Solar Cells with Cobalt-Based Redox Mediators
+2015-07-30 10.1021/acs.jpcc.5b04977 Self-Metalation of Phthalocyanine Molecules with Silver Surface Atoms by Adsorption on Ag(110)
+2015-11-20 10.1103/PhysRevB.92.201205 Anharmonic stabilization and band gap renormalization in the perovskite CsSnI3
+2015-12-01 10.1103/PhysRevLett.115.236804 Quantized Evolution of the Plasmonic Response in a Stretched Nanorod
+2016-01-15 10.1007/128_2014_616 Dynamical Processes in Open Quantum Systems from a TDDFT Perspective: Resonances and Electron Photoemission
+2016-01-15 10.1039/c6cp04194a Decoupling strain and ligand effects in ternary nanoparticles for improved ORR electrocatalysis
+2016-01-15 10.1039/c6ra21668d Ab initio calculation of halide ligand passivation on PbSe quantum dot facets
+2016-01-15 10.1039/c6sc01360k Conformations of cyclopentasilane stereoisomers control molecular junction conductance
+2016-01-28 10.1021/acs.jpcc.5b10025 Photoinduced Absorption within Single-Walled Carbon Nanotube Systems
+2016-01-28 10.1039/c5cp04694g Correlation between diffusion barriers and alloying energy in binary alloys
+2016-03-31 10.1021/acs.jpcc.5b11211 When Conductance Is Less than the Sum of Its Parts: Exploring Interference in Multiconnected Molecules
+2016-03-31 10.1021/acs.jpcc.5b12611 Theoretical Insight into the Internal Quantum Efficiencies of Polymer/C-60 and Polymer/SWNT Photovoltaic Devices
+2016-04-07 10.1021/acs.jpcc.5b11696 Structural Changes in RuO2 during Electrochemical Hydrogen Evolution
+2016-04-15 10.1038/NCHEM.2454 Effects of correlated parameters and uncertainty in electronic-structure-based chemical kinetic modelling
+2016-05-05 10.1021/acs.jpcc.6b01828 Tuning Conductance in Aromatic Molecules: Constructive and Counteractive Substituent Effects
+2016-06-21 10.1063/1.4954003 All-silicon tandem solar cells: Practical limits for energy conversion and possible routes for improvement
+2016-07-25 10.1002/anie.201603584 Fulleretic Well-Defined Scaffolds: Donor-Fullerene Alignment Through Metal Coordination and Its Effect on Photophysics
+2016-09-07 10.1063/1.4961868 An automated nudged elastic band method
+2016-09-19 10.1002/anie.201605559 Charge Transport and Conductance Switching of Redox-Active Azulene Derivatives
+2016-10-10 10.1038/ncomms13040 Isotope analysis in the transmission electron microscope
+2016-10-15 10.1007/s00706-016-1795-6 Bias-induced conductance switching in single molecule junctions containing a redox-active transition metal complex
+2016-10-15 10.1021/acscatal.6b01310 Reaction Pathways and Intermediates in Selective Ring Opening of Biomass-Derived Heterocyclic Compounds by Iridium
+2016-10-17 10.1021/acs.inorgchem.6b01840 Electron Transfer and Solvent-Mediated Electronic Localization in Molecular Photocatalysis
+2016-10-21 10.1063/1.4964671 Accelerating the search for global minima on potential energy surfaces using machine learning
+2016-11-15 10.1021/acs.jctc.6b00815 Implementation of Constrained DFT for Computing Charge Transfer Rates within the Projector Augmented Wave Method
+2016-12-21 10.1002/aenm.201601427 Inter-Fullerene Electronic Coupling Controls the Efficiency of Photoinduced Charge Generation in Organic Bulk Heterojunctions
+2016-12-22 10.1021/acs.jpcc.6b09682 Field-Induced Conformational Change in a Single-Molecule-Graphene-Nanoribbon Junction: Effect of Vibrational Energy Redistribution
+2016-12-29 10.1021/acs.jpcc.6b09019 pH in Grand Canonical Statistics of an Electrochemical Interface
+2017-01-06 10.1103/PhysRevB.95.045407 Principles and simulations of high-resolution STM imaging with a flexible tip apex
+2017-01-15 10.1039/c6nr08958e Grain boundary-mediated nanopores in molybdenum disulfide grown by chemical vapor deposition
+2017-02-15 10.1021/acs.jctc.6b00809 Theory and Applications of Generalized Pipek-Mezey Wannier Functions
+2017-04-20 10.1021/acs.jpcc.7b00283 Effects of Aromaticity and Connectivity on the Conductance of Five-Membered Rings
+2017-06-15 10.1016/j.micromeso.2017.02.065 Distribution of open sites in Sn-Beta zeolite
+2017-06-15 10.1021/acsnano.7b01912 Manifestation of Geometric and Electronic Shell Structures of Metal Clusters in Intercluster Reactions
+2017-06-15 10.1126/sciadv.1700176 Buckyball sandwiches
+2017-07-12 10.1088/1361-648X/aa680e The atomic simulation environment-a Python library for working with atoms
+2017-07-15 10.1021/acs.jctc.7b00404 Projector Augmented Wave Method Incorporated into Gauss-Type Atomic Orbital Based Density Functional Theory
+2017-07-15 10.1021/acs.nanolett.7b01592 The Role of Through-Space Interactions in Modulating Constructive and Destructive Interference Effects in Benzene
+2017-08-01 10.1038/s41598-017-07456-6 Excitation-dependent fluorescence from atomic/molecular layer deposited sodium-uracil thin films
+2017-08-10 10.1021/acs.jpcc.7b04700 Spectroelectrochemical Approaches to Mechanistic Aspects of Charge Transport in meso-Nickel(II) Schiff Base Electrochromic Polymer
+2017-08-15 10.1103/PhysRevB.96.085421 Quantum interference in coherent tunneling through branched molecular junctions containing ferrocene centers
+2017-09-01 10.1088/1361-651X/aa7320 libvdwxc: a library for exchange-correlation functionals in the vdW-DF family
+2017-10-15 10.1016/j.jcis.2017.06.017 Investigation of anti-solvent induced optical properties change of cesium lead bromide iodide mixed perovskite (CsPbBr3-xIx) quantum dots
+2017-10-15 10.1016/j.jssc.2017.07.015 The native point defects of ternary C14 Laves phase Mg2Cu3Si: Ab initio investigation

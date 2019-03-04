@@ -1,0 +1,98 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# http://stackoverflow.com/questions/23926945/specify-headless-or-gui-from-command-line
+def gui_enabled?
+  !ENV.fetch('GUI', '').empty?
+end
+
+Vagrant.configure(2) do |config|
+  # windows
+  config.vm.define "windows" do |windows|
+    # the http://aka.ms/vagrant-win boxes hang for me ...
+    windows.vm.box = "opentable/win-2012r2-standard-amd64-nocm"
+    windows.vm.box_url = "opentable/win-2012r2-standard-amd64-nocm"
+    windows.vm.provider 'virtualbox' do |v|
+      v.gui = gui_enabled?
+    end
+    windows.vm.provider "virtualbox" do |v|
+      v.memory = 512  # Windows is greedy
+      v.cpus = 1
+    end
+    windows.ssh.shell = "powershell"
+  end
+  # compilation of openblas takes ~1h
+  $install_openblas = <<SCRIPT
+cd c:\\OpenBLAS
+cmd /c 'sh -c "make BINARY=32 CC=gcc FC=gfortran"'
+cmd /c 'sh -c "make PREFIX=/c/OpenBLAS install"'
+cp c:\\OpenBLAS\\bin\\libopenblas.dll c:\\programdata\\chocolatey\\bin
+SCRIPT
+  $install_libxc = <<SCRIPT
+cd c:\\libxc
+cmd /c 'sh -c "./configure --prefix /c/libxc"'
+cmd /c 'mingw32-make install'
+SCRIPT
+  $install_gpaw = <<SCRIPT
+cd c:\\gpaw-0.11.0.12735
+cmd /c 'echo [build] >> c:\\gpaw-0.11.0.12735\\setup.cfg'
+cmd /c 'echo compiler=mingw32 >> c:\\gpaw-0.11.0.12735\\setup.cfg'
+cmd /c 'sh -c "LIBRARY_PATH=/c/libxc/lib:/c/OpenBLAS/lib C_INCLUDE_PATH=/c/libxc/include python setup.py bdist_msi"'
+SCRIPT
+  config.vm.define "windows" do |windows|
+    # Python(x,y), on both 32- and 64-bit Windows,
+    # requires Microsoft Visual C++ 2008 Redistributable Package (x86),
+    # download and install it from:
+    # https://www.microsoft.com/en-us/download/details.aspx?id=5582
+    # Use http://www.dependencywalker.com/ to find missing DLLs in case of
+    # ImportError: DLL load failed: The specified module could not be found
+    #
+    # NOTE! all the commands below are executed from a @powershell with administrator rights
+    # start automatic installation: chocolatey
+    windows.vm.provision :shell, :inline => 'powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString(\'https://chocolatey.org/install.ps1\'))"'
+    windows.vm.provision :shell, :inline => "choco install --force -y wget"
+    windows.vm.provision :shell, :inline => "choco install --force -y 7zip.commandline"
+    windows.vm.provision :shell, :inline => "choco install --force -y svn"
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate http://downloads.sourceforge.net/project/mingw/MSYS/Base/msys-core/msys-1.0.11/msysCORE-1.0.11-bin.tar.gz -O c:\\msysCORE-1.0.11-bin.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x msysCORE-1.0.11-bin.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& copy msysCORE-1.0.11-bin.tar c:\\programdata\\chocolatey'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\programdata\\chocolatey& 7za x msysCORE-1.0.11-bin.tar'"
+    windows.vm.provision :shell, :inline => "mkdir c:\\msys\\1.0\\bin"
+    windows.vm.provision :shell, :inline => "cp c:\\programdata\\chocolatey\\bin\\sh.exe c:\\msys\\1.0\\bin"  # standard msys path, we only need sh.exe there
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate http://pythonxy.connectmv.com/Python(x,y)-2.7.5.2.exe -O c:\\Python.exe'"
+    windows.vm.provision :shell, :inline => "cmd /c 'c:\\Python.exe /S'"
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate http://downloads.activestate.com/ActivePerl/releases/5.20.2.2001/ActivePerl-5.20.2.2001-MSWin32-x64-298913.msi -O c:\\ActivePerl-5.20.2.2001-MSWin32-x64-298913.msi'"
+    windows.vm.provision :shell, :inline => "cmd /c 'msiexec /i c:\\ActivePerl-5.20.2.2001-MSWin32-x64-298913.msi PERL_PATH=Yes PERL_EXT=Yes /quiet'"
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate http://github.com/xianyi/OpenBLAS/archive/v0.2.14.tar.gz -O c:\\v0.2.14.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x v0.2.14.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x v0.2.14.tar'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& xcopy /e /i OpenBLAS-0.2.14 OpenBLAS'"
+    windows.vm.provision :shell, :inline => $install_openblas
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate http://www.tddft.org/programs/octopus/down.php?file=libxc/libxc-2.1.2.tar.gz -O c:\\libxc-2.1.2.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x libxc-2.1.2.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x libxc-2.1.2.tar'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& xcopy /e /i libxc-2.1.2 libxc'"
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate https://wiki.fysik.dtu.dk/gpaw-files/gpaw-setups-0.9.9672.tar.gz -O c:\\gpaw-setups-0.9.9672.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x gpaw-setups-0.9.9672.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x gpaw-setups-0.9.9672.tar'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& xcopy /e /i gpaw-setups-0.9.9672 gpaw-setups'"
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate https://wiki.fysik.dtu.dk/gpaw/gpaw-0.11.0.12735.tar.gz -O c:\\gpaw-0.11.0.12735.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x gpaw-0.11.0.12735.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\dist& copy gpaw-0.11.0.12735.tar c:\\'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x gpaw-0.11.0.12735.tar'"
+    windows.vm.provision :shell, :inline => "cmd /c 'wget --quiet --no-check-certificate https://wiki.fysik.dtu.dk/ase-files/python-ase-3.9.0.4465.tar.gz -O c:\\python-ase-3.9.0.4465.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x python-ase-3.9.0.4465.tar.gz'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\dist& copy python-ase-3.9.0.4465.tar c:\\'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\& 7za x python-ase-3.9.0.4465.tar'"
+    windows.vm.provision :shell, :inline => $install_libxc
+    # distutils.cfg needs UNIX end-of-line
+    windows.vm.provision :shell, :inline => "sh -c 'echo [build] > /c/Python27/Lib/distutils/distutils.cfg'"
+    windows.vm.provision :shell, :inline => "sh -c 'echo compiler=mingw32 >> /c/Python27/Lib/distutils/distutils.cfg'"
+    windows.vm.provision :shell, :inline => "cmd /c 'cd c:\\python-ase-3.9.0.4465& python setup.py bdist_msi'"
+    windows.vm.provision :shell, :inline => "cmd /c 'msiexec /i c:\\python-ase-3.9.0.4465\\dist\\python-ase-3.9.0.win32.msi /quiet'"
+    windows.vm.provision :shell, :inline => $install_gpaw
+    windows.vm.provision :shell, :inline => "cmd /c 'msiexec /i c:\\gpaw-0.11.0.12735\\dist\\gpaw-0.10.0.win32-py2.7.msi /quiet'"
+    windows.vm.provision :shell, :inline => "Rename-Computer -NewName windows -Restart"
+    windows.vm.provision :shell, :inline => "Get-WmiObject Win32_ComputerSystem"
+  end
+end

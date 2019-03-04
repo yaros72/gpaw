@@ -1,0 +1,70 @@
+2009-01-15 10.1039/b904491d A density functional investigation of thiolate-protected bimetal PdAu24(SR)(18)(z) clusters: doping the superatom complex
+2009-09-09 10.1021/ja905182g Characterization of Iron-Carbonyl-Protected Gold Clusters
+2010-02-15 10.1103/PhysRevB.81.085103 Fully self-consistent GW calculations for molecules
+2010-06-30 10.1088/0953-8984/22/25/253202 Electronic structure calculations with GPAW: a real-space implementation of the projector augmented-wave method
+2010-09-30 10.1021/jp1015438 Thiolate-Protected Au-25 Superatoms as Building Blocks: Dimers and Crystals
+2010-09-30 10.1021/jp9097342 On the Structure of a Thiolated Gold Cluster: Au-44(SR)(28)(2-)
+2011-03-23 10.1021/ja111077e Electronic and Vibrational Signatures of the Au-102(p-MBA)(44) Cluster
+2011-06-15 10.1002/ejic.201100374 The Al50Cp*(12) Cluster - A 138-Electron Closed Shell (L=6) Superatom
+2011-09-07 10.1063/1.3632087 Evidence of superatom electronic shells in ligand-stabilized aluminum clusters
+2011-10-21 10.1063/1.3651239 All-electron time-dependent density functional theory with finite elements: Time-propagation approach
+2012-01-15 10.1039/c2cp23229d The electronic structure of Ge-9[Si(SiMe3)(3)](3)(-): a superantiatom complex
+2012-01-15 10.1039/c2nr30444a One-pot synthesis and characterization of subnanometre-size benzotriazolate protected copper clusters
+2012-04-14 10.1063/1.3700800 Nonadiabatic Ehrenfest molecular dynamics within the projector augmented-wave method
+2012-05-14 10.1063/1.4712616 Enhanced charge transfer by phenyl groups at a rubrene/C-60 interface
+2012-10-18 10.1021/jz301261x Experimental and Theoretical Determination of the Optical Gap of the Au-144(SC2H4Ph)(60) Cluster and the (Au/Ag)(144)(SC2H4Ph)(60) Nanoalloys
+2013-01-15 10.1016/j.cpc.2012.08.001 Large nonadiabatic quantum molecular dynamics simulations on parallel computers
+2013-01-15 10.1039/c3cp51685g Porphyrin adsorbed on the (10(1)over-bar0) surface of the wurtzite structure of ZnO - conformation induced effects on the electron transfer characteristics
+2013-01-30 10.1103/PhysRevB.87.045428 Stratified graphene/noble metal systems for low-loss plasmonics applications
+2013-08-22 10.1021/jp405769e Gold Nanowires: A Time-Dependent Density Functional Assessment of Plasmonic Behavior
+2013-09-15 10.1038/ncomms3422 All-thiol-stabilized Ag-44 and Au12Ag32 nanoparticles with single-crystal structures
+2013-11-15 10.1021/nn4046634 Birth of the Localized Surface Plasmon Resonance in Mono layer-Protected Gold Nanoclusters
+2014-01-15 10.1039/c3py00853c Soluble and stable alternating main-chain merocyanine copolymers through quantitative spiropyran-merocyanine conversion
+2014-04-02 10.1021/ja412141j Single Crystal XRD Structure and Theoretical Analysis of the Chiral Au30S(S-t-Bu)(18) Cluster
+2014-05-14 10.1063/1.4869342 A divide-conquer-recombine algorithmic paradigm for large spatiotemporal quantum molecular dynamics simulations
+2014-05-15 10.1007/s00339-013-8034-3 Atomistic approach for simulating plasmons in nanostructures
+2014-08-06 10.1088/0953-8984/26/31/315013 Dynamical coupling of plasmons and molecular excitations by hybrid quantum/classical calculations: time-domain approach
+2014-08-07 10.1021/jp505464z Ultrafast Electronic Relaxation and Vibrational Cooling Dynamics of Au-144(SC2H4Ph)(60) Nanocluster Probed by Transient Mid-IR Spectroscopy
+2014-08-28 10.1021/jp505462m TDDFT Analysis of Optical Properties of Thiol Monolayer-Protected Gold and Intermetallic Silver-Gold Au-144(SR)(60) and Au84Ag60(SR)(60) Clusters
+2014-09-15 10.1021/nl502571b Controlling Catalytic Selectivity on Metal Nanoparticles by Direct Photoexcitation of Adsorbate-Metal Bonds
+2014-09-18 10.1021/jp501185q Superatomic S-2 Silver Clusters Stabilized by a Thiolate-Phosphine Monolayer: Insight into Electronic and Optical Properties of Ag-14(SC6H3F2)(12)(PPh3)(8) and Ag-16(SC6H3F2)(14)(DPPE)(4)
+2014-11-06 10.1021/jp506935a Physical Factors Affecting Charge Transfer at the Pe-COOH-TiO2 Anatase Interface
+2014-12-15 10.1002/pssb.201451171 PFO-BPy solubilizers for SWNTs: Modelling of polymers from oligomers
+2015-01-15 10.1002/cpe.3199 Design and performance characterization of electronic structure calculations on massively parallel supercomputers: a case study of GPAW on the Blue Gene/P architecture
+2015-01-15 10.1016/j.jcp.2014.10.052 Real-time adaptive finite element solution of time-dependent Kohn-Sham equation
+2015-01-15 10.1039/c4cp02789b A DFT study of the effect of OH groups on the optical, electronic, and structural properties of TiO2 nanoparticles
+2015-01-15 10.1039/c5cc04513d UV photoexcitation of a dissolved metalloid Ge-9 cluster compound and its extensive ultrafast response
+2015-01-15 10.1039/c5cp00435g An old workhorse for new applications: Fe(dpm)(3) as a precursor for low-temperature PECVD of iron(III) oxide
+2015-01-15 10.1039/c5nr04324g Pd2Au36(SR)(24) cluster: structure studies
+2015-01-22 10.1021/jp511037x Silver Sulfide Nanoclusters and the Superatom Model
+2015-01-28 10.1021/ja5109968 A Critical Size for Emergence of Nonbulk Electronic and Geometric Structures in Dodecanethiolate-Protected Au Clusters
+2015-02-05 10.1021/jz502637b Copper Induces a Core Plasmon in Intermetallic Au(144,145)-xCux(SR)(60) Nanoclusters
+2015-03-07 10.1063/1.4913739 Nanoplasmonics simulations at the basis set limit through completeness-optimized, local numerical basis sets
+2015-03-15 10.1021/nn506711a Molecule-like Photodynamics of Au-102(pMBA)(44) Nano cluster
+2015-03-24 10.1103/PhysRevB.91.115431 Localized surface plasmon resonance in silver nanoparticles: Atomistic first-principles time-dependent density-functional theory calculations
+2015-04-30 10.1021/acs.jpcc.5b01068 The Role of the Anchor Atom in the Ligand of the Monolayer-Protected Au-25(XR)(18)(-) Nanocluster
+2015-05-21 10.1021/jp510926q Theoretical Analysis of the M12Ag32(SR)(40)(4-) and X@M12Ag32(SR)(30)(4-) Nanoclusters (M = Au, Ag; X = H, Mn)
+2015-07-02 10.1021/acs.jpclett.5b01045 Impact of Ga-V Codoping on Interfacial Electron Transfer in Dye-Sensitized TiO2
+2015-07-20 10.1103/PhysRevB.92.045209 Beyond the Tamm-Dancoff approximation for extended systems using exact diagonalization
+2015-08-14 10.1063/1.4928510 Subspace formulation of time-dependent density functional theory for large-scale calculations
+2015-08-27 10.1021/acs.jpcc.5b07622 Photodynamics of a Molecular Water-Soluble Nanocluster Identified as Au-130(pMBA)(50)
+2015-09-10 10.1021/acs.jpcc.5b05824 Superatom Model for Ag-S Nanocluster with Delocalized Electrons
+2015-12-01 10.1103/PhysRevLett.115.236804 Quantized Evolution of the Plasmonic Response in a Stretched Nanorod
+2015-12-14 10.1063/1.4937379 Nonlinear electronic excitations in crystalline solids using meta-generalized gradient approximation and hybrid functional in time-dependent density functional theory
+2015-12-15 10.1021/acsnano.5b02850 Dynamic Diglyme-Mediated Self-Assembly of Gold Nanoclusters
+2015-12-24 10.1021/acs.jpcc.5b10182 Charge Transfer at the Hybrid Interfaces in the Presence of Water: A Theoretical Study
+2016-01-15 10.1039/c5nr08122j Tuning Ag-29 nanocluster light emission from red to blue with one and two-photon excitation
+2016-01-15 10.1039/c6cp05681d A DFT study of the effect of SO4 groups on the properties of TiO2 nanoparticles
+2016-02-14 10.1039/c5cp06969f The electrooxidation-induced structural changes of gold di-superatomic molecules: Au-23 vs. Au-25
+2016-02-25 10.1021/acs.jpcc.5b11489 Comparative Ab-Initio Study of Substituted Norbornadiene-Quadricyclane Compounds for Solar Thermal Storage
+2016-06-28 10.1038/srep28618 Role of Polar Phonons in the Photo Excited State of Metal Halide Perovskites
+2016-07-15 10.1021/acs.jctc.6b00263 Electrostatic Embedding To Model the Impact of Environment on Photophysical Properties of Molecular Crystals: A Self-Consistent Charge Adjustment Procedure
+2016-09-15 10.1038/ncomms12809 Plasmonic twinned silver nanoparticles with molecular precision
+2016-11-09 10.1021/jacs.6b09007 [Ag-67(SPhMe2)(32)(PPh3)(8)](3+): Synthesis, Total Structure, and Optical Properties of a Large Box-Shaped Silver Nanocluster
+2017-02-14 10.1063/1.4975193 Macroscopic dielectric function within time-dependent density functional theory-Real time evolution versus the Casida approach
+2017-05-25 10.1021/acs.jpcc.6b10618 Analysis of the Electronic Structure of Non-Spherical Ligand-Protected Metal Nanoclusters: The Case of a Box-Like Ag-67
+2017-05-26 10.1103/PhysRevB.95.195158 Convergence behavior of the random phase approximation renormalized correlation energy
+2017-06-07 10.1039/c7cp01440f Stability, electronic structure, and optical properties of protected gold-doped silver Ag29-xAux (x=0-5) nanoclusters
+2017-08-01 10.1038/s41598-017-07456-6 Excitation-dependent fluorescence from atomic/molecular layer deposited sodium-uracil thin films
+2017-08-14 10.1088/1361-6455/aa7d2c Spectroscopic signatures of triplet states in acenes
+2017-08-22 10.1002/chem.201701673 Coinage Metal Superatomic Cores: Insights into Their Intrinsic Stability and Optical Properties from Relativistic DFT Calculations
